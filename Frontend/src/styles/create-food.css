@@ -3,6 +3,8 @@
 /* Container */
 .create-food-page {
     min-height: 100dvh;
+    /* overflow: hidden; */
+    /* overflow-x: hidden; */
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -24,6 +26,8 @@
     display: flex;
     flex-direction: column;
     gap: var(--space-5);
+    margin-left: 3rem;
+    margin-top: 18rem;
 }
 
 .create-food-header {
@@ -50,6 +54,10 @@
 @media (min-width: 960px) {
     .create-food-form {
         gap: var(--space-6);
+    }
+
+    .create-food-card{
+        margin-top: 2rem;
     }
 }
 
