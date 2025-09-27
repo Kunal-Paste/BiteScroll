@@ -8,7 +8,7 @@ const ChooseRegister = () => {
             <div className="auth-card" role="region" aria-labelledby="choose-register-title">
                 <header>
                     <h1 id="choose-register-title" className="auth-title">Register</h1>
-                    <p className="auth-subtitle">Pick how you want to join the platform.</p>
+                    <p className="auth-subtitle">Pick how you want to join the us.</p>
                 </header>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                     <Link to="/user/register" className="auth-submit" style={{ textDecoration: 'none' }}>
