@@ -9,3 +9,8 @@ html,body{
   width: 100%;
   overflow-x: hidden;
 }
+
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("/fonts/BADOCKERY-Trial-BF68d4a4aa40ff1.otf") format("truetype");
+}
