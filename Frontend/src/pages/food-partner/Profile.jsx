@@ -13,7 +13,7 @@ const Profile = () => {
     // guard against missing or placeholder id (e.g. ":id")
     if (!id || id === ':id') return;
 
-    axios.get(`http://localhost:3000/api/food-partner/${id}`, { withCredentials: true })
+    axios.get(`https://bitescroll.onrender.com/api/food-partner/${id}`, { withCredentials: true })
       .then(response => {
         setProfile(response.data.foodPartner)
         setVideos(response.data.foodPartner.foodItems || [])

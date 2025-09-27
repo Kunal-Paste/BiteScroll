@@ -11,9 +11,9 @@ const FoodPartnerLogin = () => {
         e.preventDefault();
 
         const email = e.target.email.value;
-        const password = e.target.password.value;
+        const password = e.target.password.value; //https://bitescroll.onrender.com
 
-        await axios.post("http://localhost:3000/api/auth/food-partner/login", {
+        await axios.post("https://bitescroll.onrender.com/api/auth/food-partner/login", {
             email,
             password
         }, {
