@@ -8,6 +8,8 @@
     justify-content: center;
     padding: var(--space-8) var(--space-4);
     background: radial-gradient(circle at 30% 20%, var(--color-surface-alt) 0%, var(--color-bg) 60%);
+    /* background: radial-gradient(circle at 30% 20%, #ff9a3d 0%, #ff6a00 60%); */
+
     background-attachment: fixed;
 }
 
@@ -20,7 +22,9 @@
 .auth-card {
     width: 100%;
     max-width: 420px;
-    background: var(--color-surface);
+    /* background: radial-gradient(circle at 30% 20%, #000000 0%, #434343 70%); */
+    /* background: radial-gradient(circle at 30% 20%, #ff9a3d 0%, #ff6a00 60%); */
+    background-image: linear-gradient(to bottom, #1c1818, #191515, #161212, #120f0f, #0e0b0b, #110e0e, #141111, #161414, #1e1c1c, #272323, #2f2b2c, #383334);
     border: 1px solid var(--color-border);
     padding: var(--space-6) var(--space-6) var(--space-5);
     border-radius: var(--radius-md);
@@ -63,7 +67,7 @@ form.auth-form {
     text-transform: uppercase;
     letter-spacing: .07em;
     font-weight: 600;
-    color: var(--color-text-secondary);
+    color: white
 }
 
 .field-group input {
@@ -74,7 +78,7 @@ form.auth-form {
     font: inherit;
     border-radius: var(--radius-sm);
     outline: none;
-    color: var(--color-text);
+    color: white;
     transition: border-color var(--transition-base), background var(--transition-base), box-shadow var(--transition-base);
     width: 100%;
     min-width: 0;
@@ -99,7 +103,10 @@ form.auth-form {
 
 button.auth-submit {
     margin-top: var(--space-2);
-    background: var(--color-accent);
+    /* background: var(--color-accent); */
+    /* background: radial-gradient(circle at 30% 20%, #00b09b 0%, #96c93d 70%); */
+    /* background: #2A7B9B; */
+    background: linear-gradient(135deg, #ff9a3d, #ff6a00);
     color: #fff;
     border: none;
     padding: 12px 16px;

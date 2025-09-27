@@ -12,7 +12,9 @@
 
 /* Header block */
 .profile-header {
-    background: var(--color-surface);
+    /* background: var(--color-surface); */
+    background: #86a6bf;
+    background: radial-gradient(circle, rgba(134, 166, 191, 1) 0%, rgba(218, 218, 230, 1) 100%, rgba(197, 201, 212, 1) 74%);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
@@ -50,8 +52,8 @@
     border-radius: 12px;
     padding: 10px 14px;
     border: 1px solid var(--color-border);
-    background: var(--color-surface-alt);
-    color: var(--color-text);
+    /* background: var(--color-surface-alt); */
+    color: black;
     width: fit-content;
     box-shadow: var(--shadow-sm);
 }
@@ -63,7 +65,7 @@
 
 .profile-address {
     font-size: 1.05rem;
-    color: var(--color-text-secondary);
+    color: black;
 }
 
 /* Stats */
@@ -84,12 +86,13 @@
 
 .profile-stat-label {
     font-size: 1.15rem;
-    color: var(--color-text-secondary);
+    color: black;
 }
 
 .profile-stat-value {
     font-size: 2rem;
     font-weight: 800;
+    color: black;
 }
 
 /* Separator line under header (as in wireframe) */
@@ -108,6 +111,7 @@
 .profile-grid-item {
     border: none;
     aspect-ratio: 3 / 4;
+    padding: 0.5rem;
 }
 
 .profile-grid-video {

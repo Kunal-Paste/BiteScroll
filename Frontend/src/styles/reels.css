@@ -92,7 +92,7 @@
 
 .reel-btn {
     align-self: flex-start;
-    background: var(--color-accent);
+    background: linear-gradient(135deg, #ff4d4d, #b30000);
     color: #fff;
     border-radius: 999px;
     padding: 10px 16px;
@@ -118,6 +118,13 @@
 
 /* Desktop tweaks */
 @media (min-width: 768px) {
+
+    /* .reels-page{
+        width: 50vw;
+        margin-left: 23rem;
+        
+    } */
+
     .reel-content {
         padding: 36px;
     }
